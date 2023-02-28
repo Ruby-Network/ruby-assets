@@ -1,13 +1,16 @@
-<span id="a">TheLostMoon@DevilGlitch</span>:<span id="b">~</span><span id="c">$</span> cd TheLostMoon/root
-<span id="a">TheLostMoon@DevilGlitch</span>:<span id="b">~</span><span id="c">$</span> cat TheLostMoon.txt<br/><br/>
-<span id="k">Windows 10 Download Zone</span>
+<span id="a">Ruby-Network@DevilGlitch</span>:<span id="b">~</span><span id="c">$</span> cd c:/DevilGlitch/
+<span id="a">Ruby-Network@DevilGlitch</span>:<span id="b">~</span><span id="c">$</span> cat DevilGlitch.txt<br/><br/>
+<span id="k">Windows OS Download Zone</span>
 
-Hey There!
+<p>Hey There!<p>
 <p>This is mini side project I'm trying to add in</p>
-<p>This is a small part where I will put download links to good apps to use</p>
+<p>This is a small part where I will put download links for Windows, usually 10, games or apps</p>
 <p>So enjoy what I have finished so far</p>
-<span id="k">============PLEASE NOTE============</span>
+<span id="k">=========================== { PLEASE NOTE} ===========================</span>
 <span id="k">Ruby Network nor I have any liablity regarding these downloads!</span>
 <span id="k">DOWNLOAD AT YOUR OWN RISK!</span>
-<p><a href="/pages/home.html">Home</a>.</p>
-<p>I hope everything works properly 
+
+<p><a href="">Home</a>.</p>
+<p>I hope everything works properly</p>
+<p>DM me on Discord if these files are not working<p>
+
