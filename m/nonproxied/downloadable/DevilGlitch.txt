@@ -1,0 +1,28 @@
+<span id="a">Ruby-Network@DevilGlitch</span>:<span id="b">~</span><span id="c">$</span> cd c:/DevilGlitch/
+<span id="a">Ruby-Network@DevilGlitch</span>:<span id="b">~</span><span id="c">$</span> cat DevilGlitch.txt
+
+<span id="k">Windows OS Download Zone</span>
+
+<p>Hey There!<p>
+<p>This is mini side project I'm trying to add in</p>
+<p>This is a small part where I will put download links for Windows, usually 10, games or apps</p>
+<p>So enjoy what I have finished so far</p>
+
+<span id="k">=========================== { PLEASE NOTE} ===========================</span>
+<span id="k">Ruby Network nor I have any liablity regarding these downloads!</span>
+<span id="k">DOWNLOAD AT YOUR OWN RISK!</span>
+
+<span id="k">Multi MC -</span>
+<p>Tested?   <p>
+<span id="a">Working!</span>
+<p>Multi Mc is a custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once. This also allows you to run minecraft on a windows computer in which you don't have administrative perms</p>
+<p>Please Note you still need to have bought Minecraft</p>
+<p>More Information   > <a href="https://multimc.org/">MultiMC main Website</a>.</p>
+
+<p>MultiMC With Versions Downloads (64/32bit)   > <a href="https://files.multimc.org/downloads/mmc-develop-win32.zip">MultiMC Official</a>.</p>
+<p>MultiMC With Versions Downloads (MacOs - 64bit)   > <a href="https://files.multimc.org/downloads/mmc-develop-osx64.tar.gz">MultiMC Official</a>.</p>
+<p>Alt Offical Downlod   > <a href="https://github.com/MultiMC/Launcher/archive/refs/tags/0.6.14.zip">AltDownload1</a>.</p>
+
+<p>I hope everything works properly</p>
+<p>DM me on Discord if these files are not working<p>
+
