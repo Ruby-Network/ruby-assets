@@ -4,20 +4,28 @@
 		<title>Cat Ninja</title>
 	</head>
 	<body dir="ltr">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                overflow: hidden;
+            }
+        </style>
 		<script>
-			var rootURL = window.location.origin;
+            let url = window.location.protocol + '//' + window.location.host
 			var gameConfig = {
-				swfUrl: rootURL + './cat-ninja.swf'
+				swfUrl: url + '/ruby-assets/cat-ninja/cat-ninja.swf'
 			};
 		</script>
-		<div id="waflashContainer">
+		<div id="waflashContainer" style="background-color: transparent;">
 			<canvas
 				class="waflashCanvas"
-				style="width: 100%; height: 100vh"
+				style="background-color: transparent; width: 100%; height: 100vh;"
 				id="canvas"
 				tabindex="1"
 			></canvas>
-			<div id="waflashStatus" style="width: 100%; height: 100%; display: none">Playing...</div>
+			<div id="waflashStatus" style="display: none">Playing...</div>
 			<script>
 				var ua = navigator.userAgent.toLowerCase();
 				if (
