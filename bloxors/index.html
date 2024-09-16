@@ -1,53 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="shortcut icon" type="image/ico" href="favicon.ico">
-    <script>
-      window.RufflePlayer = window.RufflePlayer || {};
-      window.RufflePlayer.config = {
-        "publicPath": undefined,
-        "polyfills": true,
-        "autoplay": "auto",
-        "unmuteOverlay": "visible",
-        "backgroundColor": "black",
-        "letterbox": "fullscreen",
-        "warnOnUnsupportedContent": true,
-        "contextMenu": true,
-        "showSwfDownload": false,
-        "upgradeToHttps": window.location.protocol === "https:",
-        "maxExecutionDuration": {"secs": 15, "nanos": 0},
-        "logLevel": "error",
-        "base": null,
-        "menu": true,
-        "salign": "",
-        "scale": "showAll",
-        "quality": "high",
-      };
-    </script>
+<head>
+    <!-- include favicon -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@ruffle-rs/ruffle" defer></script>
+</head>
+<body>
     <style>
         body {
-	    overflow: hidden;
-	}
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100vh;
+            background: black;
+        }
+        ruffle-player {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
     </style>
-  </head>
-  <body style="background-color:black;">
-    <center>
-      <div id="container" style="height:100%;width:100%;"></div>
+    <container style="display: block; width: 100%; height: 100%; top: 0; bottom: 0; left: 0; right: 0; background: black;" id="player" ></container>
     <script>
-      window.RufflePlayer = window.RufflePlayer || {};
-      window.addEventListener("load", (event) => {
-          const ruffle = window.RufflePlayer.newest();
-          const player = ruffle.createPlayer();
-          const container = document.getElementById("container");
-          container.appendChild(player);
-          player.style.height = "600px";
-          player.style.width = "937px";
-          player.load("bloxors.swf");
-      });
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.RufflePlayer.config = {
+            "autoplay": "on",
+            "backgroundColor": "#000000",
+            "letterbox": "on",
+            "scale": "showAll",
+            "quality": "high",
+            "splashScreen": false
+        }
+        window.addEventListener("load", (event) => {
+            const ruffle = window.RufflePlayer.newest();
+            const player = ruffle.createPlayer();
+            const container = document.getElementById("player");
+            container.appendChild(player);
+            player.load("bloxors.swf");
+        })
     </script>
-    <script src="ruffle/ruffle.js"></script>
-    </center>
-  </body>
+</body>
 </html>
