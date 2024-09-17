@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <meta http-equiv="content-type" content="text/html; charset=UTF8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no, minimal-ui">
+        <meta name="description" content="">
+        <script src="../assets/4399.js"></script>
+        <script src="../assets/poki-sdk.js" defer></script>
+        <style>
+            body {
+                width: 100%;
+                height: 100vh;
+                margin: 0;
+                padding: 0;
+                background: black;
+            }
+            #game-container {
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+        <script defer>
+            window.config = {
+            loader: 'unity',
+            debug: false,
+            maxRatio: 16 / 9,
+            minRatio: 9 / 16,
+
+            title: 'Subway Surfers: Barecelona',
+            unityWebglLoaderUrl: '../assets/unity-loader.min.js',
+            unityVersion: '2019.4.18f1',
+            unityWebglBuildUrl: './barcelona.json',
+            fileSize: 35,
+        };
+        </script>
+    </head>
+    <body>
+        <script src="../assets/unity-loader.min.js"></script>
+        <script src="../assets/unity.min.js"></script>
+    </body>
+</html>
