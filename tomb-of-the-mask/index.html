@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script src="./poki-sdk.js" defer></script>
+<script>
+            window.config = {
+                loader: "unity-2020",
+                debug: false,
+                maxRatio: 16 / 9,
+                minRatio: 9 / 16,
+
+                title: "Tomb of the Mask",
+
+                unityVersion: "2021.3.24f1",
+                unityWebglBuildUrl: "",
+
+                fileSize: 27,
+                cachedDecompressedFileSizes: {
+                    "totm.loader.js": 19031,
+                    "totm.webgl.data": 10729066,
+                    "totm.framework.js": 394423,
+                    "totm.wasm": 17123005,
+                },
+                metadata: {
+                    background_color: "#231F20",
+                    code_filename: "totm.wasm",
+                    data_filename: "totm.webgl.data",
+                    development_player: "false",
+                    framework_filename: "totm.framework.js",
+                    height: "600",
+                    loader_filename: "totm.loader.js",
+                    use_data_caching: "false",
+                    use_threads: "false",
+                    use_wasm: "true",
+                    use_webgl_1_0: "true",
+                    use_webgl_2_0: "true",
+                },
+            };
+        </script>
+<style>
+            #game, #game canvas {
+                image-rendering: crisp-edges;
+                image-rendering: pixelated;
+            }
+        </style>
+</head>
+<body>
+    <script src="./unity-2020.js"></script>
+</body>
+</html>
