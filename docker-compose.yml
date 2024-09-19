@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  assets-server:
+    image: ghcr.io/ruby-network/assets-server:latest
+    ports:
+      - 3002:3002

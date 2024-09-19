@@ -14,7 +14,7 @@
 - I recommend using Docker for this so you don't have to build the server files!
 - A docker-compose.yml & Dockerfile are provided.
     - You can either use the prebuilt docker image (docker-compose.yml)
-    - Or clone the repository and build yourself with docker (not recommended as the repo is huge)
+    - Or clone the repository and build yourself with docker (docker-compose.build.yml)
 
 ### Using in your frontend
 This is super easy!
